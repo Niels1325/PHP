@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beasties</title>
+</head>
+<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 2;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Roboto Light", sans-serif;
+        background: #202020;
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn {
+        background: red;
+        color: black;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        transition: 0.3s ease-in-out;
+        outline: none;
+        width: 100px;
+    }
+
+    .btn:hover {
+        background: black;
+        color: red;
+        cursor: pointer;
+        outline: none;
+    }
+</style>
+<form action="result.php" method="post">
+    <select name="monkeys[]" multiple required style="width:100px;height:165px;overflow-y:hidden;outline:none;">
+        <option value="monkey1">MONKI 1</option>
+        <option value="monkey2">MONKI 2</option>
+        <option value="monkey3">MONKI 3</option>
+        <option value="monkey4">MONKI 4</option>
+        <option value="monkey5">MONKI 5</option>
+        <option value="monkey6">MONKI 6</option>
+        <option value="monkey7">MONKI 7</option>
+        <option value="monkey8">MONKI 8</option>
+        <option value="monkey9">MONKI 9</option>
+        <option value="monkey10">MONKI 10</option>
+    </select> <br> <br>
+    <input class="btn" type="submit" name="knop" value="CHOOSE">
+</form>
+</body>
+</html>
