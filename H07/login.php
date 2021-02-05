@@ -54,7 +54,7 @@ catch(PDOException $error) {
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
         * {
             box-sizing: border-box;
-            margin: 2;
+            margin: 0;
             padding: 0;
         }
 
@@ -103,7 +103,7 @@ if (isset($message)) {
     <br> <br>
     Wachtwoord <input class="input" type="password" id="password" name="password" value="" required>
     <br> <br>
-    <input type="submit" class="btn knop" name="knop" value="Send">
+    <input type="submit" class="knop btn" name="knop" value="Send">
 </form>
 </body>
 </html>
